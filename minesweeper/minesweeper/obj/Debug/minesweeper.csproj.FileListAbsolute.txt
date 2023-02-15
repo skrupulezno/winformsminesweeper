@@ -19,3 +19,14 @@ C:\Users\student1\Source\Repos\winforms\minesweeper\minesweeper\obj\Debug\minesw
 C:\Users\student1\Source\Repos\winforms\minesweeper\minesweeper\obj\Debug\minesweeper.csproj.CoreCompileInputs.cache
 C:\Users\student1\Source\Repos\winforms\minesweeper\minesweeper\obj\Debug\minesweeper.exe
 C:\Users\student1\Source\Repos\winforms\minesweeper\minesweeper\obj\Debug\minesweeper.pdb
+C:\project\winformsminesweeper\minesweeper\minesweeper\obj\Debug\minesweeper.csproj.AssemblyReference.cache
+C:\project\winformsminesweeper\minesweeper\minesweeper\obj\Debug\minesweeper.csproj.SuggestedBindingRedirects.cache
+C:\project\winformsminesweeper\minesweeper\minesweeper\obj\Debug\minesweeper.Form1.resources
+C:\project\winformsminesweeper\minesweeper\minesweeper\obj\Debug\minesweeper.Properties.Resources.resources
+C:\project\winformsminesweeper\minesweeper\minesweeper\obj\Debug\minesweeper.csproj.GenerateResource.cache
+C:\project\winformsminesweeper\minesweeper\minesweeper\obj\Debug\minesweeper.csproj.CoreCompileInputs.cache
+C:\project\winformsminesweeper\minesweeper\minesweeper\obj\Debug\minesweeper.exe
+C:\project\winformsminesweeper\minesweeper\minesweeper\obj\Debug\minesweeper.pdb
+C:\project\winformsminesweeper\minesweeper\minesweeper\bin\Debug\minesweeper.exe.config
+C:\project\winformsminesweeper\minesweeper\minesweeper\bin\Debug\minesweeper.exe
+C:\project\winformsminesweeper\minesweeper\minesweeper\bin\Debug\minesweeper.pdb

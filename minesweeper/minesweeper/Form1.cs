@@ -34,32 +34,22 @@ namespace minesweeper
             label2.Text = "";
 
             Size = new Size(356, 400);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
             checkBox1.Visible = false;
-=======
->>>>>>> parent of 75d5b14 (minesweeper 0.5)
-=======
->>>>>>> parent of 75d5b14 (minesweeper 0.5)
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             int W = 30;
             int H = 30;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
             button1.Visible = false;
             checkBox1.Visible = true;
 
-=======
->>>>>>> parent of 75d5b14 (minesweeper 0.5)
-=======
->>>>>>> parent of 75d5b14 (minesweeper 0.5)
             allButtons = new ButtonExtended[W, H];
+
             ButtonExtended[,] button = new ButtonExtended[10, 10];
+
             for (int i = 0; i < 10; i++)
                 for (int j = 0; j < 10; j++)
                 {
@@ -70,20 +60,10 @@ namespace minesweeper
                     button[i, j].Click += new EventHandler(btn_Click);
                     button[i, j].Text = "";
                     button[i, j].Tag = new Point(i, j);
-<<<<<<< HEAD
-<<<<<<< HEAD
                     button[i, j].BackColor = Color.LightGray;
                     button[i, j].isNotTouched = true;
 
                     if (rng.Next(0, 101) < 20)
-=======
-                    Controls.Add(button[i, j]);
-                    if (rng.Next(0, 101) < 90)
->>>>>>> parent of 75d5b14 (minesweeper 0.5)
-=======
-                    Controls.Add(button[i, j]);
-                    if (rng.Next(0, 101) < 90)
->>>>>>> parent of 75d5b14 (minesweeper 0.5)
                     {
                         button[i, j].isBomb = true;
                         button[i, j].isOpened = false;
@@ -97,8 +77,6 @@ namespace minesweeper
         void btn_Click(object sender, EventArgs e)
         {
             ButtonExtended button = (ButtonExtended)sender;
-<<<<<<< HEAD
-<<<<<<< HEAD
 
             if (checkBox1.Checked && !button.isChecked)
             {
@@ -111,25 +89,15 @@ namespace minesweeper
                 button.isChecked = false;
             }
             else if (button.isBomb && !button.isChecked)
-=======
-            if (button.isBomb)
->>>>>>> parent of 75d5b14 (minesweeper 0.5)
-=======
-            if (button.isBomb)
->>>>>>> parent of 75d5b14 (minesweeper 0.5)
             {
                 Explode(button);
             }
-            else if (!button.isOpened)
+
+            else if (!button.isOpened && !button.isChecked)
             {
                 EmptyFieldClick(button);
                 button.isOpened = true;
                 score++;
-            }
-            else
-            {
-                EmptyFieldClick(button);
-
             }
 
             int allBombs = 0;
@@ -216,19 +184,15 @@ namespace minesweeper
                 }
             return bombCount;
         }
+
+
     }
 
     class ButtonExtended:Button
     {
         public bool isBomb;
         public bool isOpened;
-<<<<<<< HEAD
-<<<<<<< HEAD
         public bool isChecked;
         public bool isNotTouched;
-=======
->>>>>>> parent of 75d5b14 (minesweeper 0.5)
-=======
->>>>>>> parent of 75d5b14 (minesweeper 0.5)
     }
 }
